@@ -1,0 +1,207 @@
+.contacts {
+    max-width: var(--xl);
+    margin: auto;
+    padding: 0 15px;
+}
+
+.contacts__image {
+    width: 70px;
+    height: 70px;
+}
+
+.contacts__item {
+    background-color: var(--white-text-color);
+    box-shadow: 0 5px 10px 7px rgba(136, 140, 133, 0.05);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 6px;
+    padding: 31px 27px;
+    width: 100%;
+}
+
+.contacts__wrapper {
+    padding: 90px 0;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+.contacts__title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    color: var(--title-contacts-color);
+    text-align: center;
+}
+
+.contacts__description {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: var(--description-color);
+}
+
+.contacts__detail {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: var(--title-contacts-color);
+}
+
+
+@media (min-width: 992px) {
+
+    .contacts {
+        padding: 0 15px;
+    }
+
+    .contacts__wrapper {
+        justify-content: space-between;
+        padding: 90px 0;
+    }
+
+    .contacts__item {
+        width: auto;
+        max-width: 370px;
+    }
+    
+}
+
+.schedule {
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px; 
+}
+
+.schedule__container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.schedule__item {
+    flex: 1;
+    min-width: 300px;
+    padding: 0;
+}
+
+.schedule__item-inner {
+    background: var(--white-text-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.schedule__header {
+    margin-bottom: 20px;
+}
+
+.schedule__title {
+    color: var(--red-color);
+    font-size: 20px; 
+    margin: 0;
+    font-family: 'Permanent Marker', sans-serif;
+    text-transform: uppercase; 
+}
+
+.schedule__subtitle {
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px; 
+    font-weight: bold;
+    margin: 5px 0 20px;
+    color: var(--title-contacts-color);
+}
+
+.schedule__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; 
+}
+
+.schedule__date {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px; 
+}
+
+.schedule__time {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: var(--title-contacts-color);
+}
+
+.schedule__location {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px; 
+    color: var(--description-color);
+    margin-bottom: 5px; 
+}
+
+.schedule__note {
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    color: var(--description-color);
+}
+
+.schedule__cta-title {
+    margin-top: 35px;
+    font-size: 36px; 
+    color: var(--title-contacts-color);
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.schedule__input {
+    width: 85%;
+    padding: 18px;
+    margin-bottom: 25px; 
+    margin-left: 30px;
+    border: 1px;
+    border-radius: 50px;
+    font-size: 14px;
+    background: var(--background-cream-color); 
+    height: 35px;
+    outline: none;
+}
+
+.schedule__button {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    display: block;
+    width: 85%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 6px; 
+    font-size: 15px;
+    background-color: var(--red-color);
+    color: var(--white-text-color);
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+    height: 35px;
+}
+
+.schedule__button:hover {
+    background-color: black;
+}
+
+.schedule__item-2 {
+    margin-top: 97px; 
+}
+
+.schedule {
+    padding-top: 20px;
+    margin-top: 20px;
+}

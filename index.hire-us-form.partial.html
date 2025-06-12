@@ -1,0 +1,51 @@
+<!-- Anastasiia Kravchenko -->
+<section
+  class="quick-catering-request__section"
+  id="quick-catering-request__section"
+>
+  <div class="quick-catering-request__container">
+    <div
+      class="quick-catering-request__form_container"
+    >
+      <p class="quick-catering-request__hire-us">Hire Us</p>
+      <h3 class="quick-catering-request__form-name">Quick Catering Request</h3>
+      <form
+        id="hire-us-form"
+        class="quick-catering-request__form"
+        method = "POST"
+      >
+        <fieldset
+          class="quick-catering-request__contact-info-fields"
+        >
+          <input type="hidden" name="access_key" value="06e7af2c-19ad-4c45-9ecc-9938bccab32f">
+          <legend>
+            We will contact you soon to agree on details and throw a gastronomic
+            party!
+          </legend>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your full name"
+            required
+          /><br />
+          <input
+            type="tel"
+            name="number"
+            placeholder="Enter your phone number"
+            required
+          /><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </fieldset>
+        <button type="submit" class="quick-catering-request__submit">
+          Send
+        </button>
+        <div id="result"></div>
+      </form>
+    </div>
+  </div>
+</section>
