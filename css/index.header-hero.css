@@ -22,7 +22,6 @@
   text-align: center;
 }
 
-/* Header Styles */
 .section-header .grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -58,7 +57,6 @@
   text-align: left;
 }
 
-/* Footer Styles */
 .section-footer .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -86,7 +84,6 @@
   background-color: #d62828;
 }
 
-/* Contact List */
 .contact-list {
   list-style: none;
   padding: 0;
@@ -118,7 +115,6 @@
   font-weight: bold;
 }
 
-/* Responsive Design */
 @media (max-width: 767px) {
   .section-header .grid,
   .section-footer .grid {

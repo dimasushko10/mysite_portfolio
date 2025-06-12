@@ -28,15 +28,3 @@ Add the data-proofer-ignore attribute to any tag to ignore it from every check.
 <a href="https://notareallink" data-proofer-ignore>Not checked.</a>
 ```
 # Team
-
-- Dmytro Sushko
-- Vlad Pylypenko
-- Anastasiia Kravchenko
-- Dmitry Hrunt
-- Anastasiia Khimchyk
-- Vlad Finiak
-- Demianov Nikita
-- Anton Kachanovski
-- Belianskyi Oleksandr
-- Korzun Viktor
-- Mykola Kokodynskyy
